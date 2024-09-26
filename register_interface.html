@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="register_style.css">
+</head>
+
+<body>
+  <div class="login">
+    <button id="homepage" class="bck-bttn">Back</button>
+    <div class="frame">
+      <div class="bttn-bx">
+        <div id="btn"></div>
+        <button type="button" class="bttn" onclick="loginform()">Log in</button>
+        <button type="button" class="bttn" onclick="registerform()">Register</button>
+      </div>
+      <form id="loginform" class="input-grp" method="post">
+        <input type="text" name="username" id="loginUsername" class="input-fld" placeholder="Enter Username" required>
+        <input type="password" name="password" id="loginPassword" class="input-fld" placeholder="Enter Password" required>
+        <input type="email" name="email" class="input-fld" placeholder="Enter Email Address" required>
+        <button type="submit" class="submit-bttn">Log in</button>
+
+        <div id="error_msg"></div>
+      </form>
+      <form id="registerform" class="input-grp" method="post">
+        <input type="text" name="username" class="input-fld" placeholder="Enter Username" required>
+        <input type="password" name="password" class="input-fld" placeholder="Enter Password" required>
+        <input type="email" name="email" class="input-fld" placeholder="Enter Email Address" required>
+        <button type="submit" class="submit-bttn">Register</button>
+
+        <div id="register_error"></div>
+      </form>
+      <button id="forgot_password" class="forgot" onclick="forgotPassword()">Forgot Password</button>
+    </div>
+  </div>
+
+  <script src="register.js"></script>
+</body>
+
+</html>

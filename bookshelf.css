@@ -1,0 +1,209 @@
+* {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+#bookshelf_bg {
+  width: 99%;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+h2 {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+header {
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 40px;
+  margin: 20px;
+}
+
+#books-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.book {
+  border-radius: 20px;
+  border: solid whitesmoke 1px;
+  width: 200px;
+  height: 250px;
+}
+
+.book img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 60px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+  background-color: rgba(36, 32, 32, 0.158);
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px; 
+  display: flex; 
+  flex-direction: row;
+}
+
+.modal-content img {
+  border-radius: 10px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#borrowForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 50%;
+  height: 100%;
+}
+
+#borrowForm label {
+  margin: 10px 0 5px;
+}
+
+#borrowForm input[type="text"],
+#borrowForm input[type="email"],
+#borrowForm input[type="file"],
+#borrowForm button {
+  padding: 10px;
+  margin: 5px 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#borrowForm button {
+  background-color: rgb(41, 39, 39);
+  letter-spacing: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#borrowForm button:hover {
+  background-color: black;
+}
+
+.borrow-button {
+  position: absolute;
+  top: 59%;
+  right: 35%;
+  height: 35px;
+  width: 100px;
+  border: solid black 1.5px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.borrow-button:hover {
+  color: gray;
+  background-color: white;
+  transition: 1s;
+}
+
+#search-container {
+  border-radius: 30px;
+  width: 1100px;
+  height: 35px;
+  margin: 30px;
+}
+
+#search-input {
+  background-color: transparent;
+  border: solid white 1px;
+  border-radius: 30px;
+  width: 1200px;
+  height: 35px;
+  color: white;
+}
+
+#search-input::placeholder {
+  color: white;
+}
+
+.search {
+  position: absolute;
+  top: 89px;
+  left: 1260px;
+  border-radius: 100%;
+  padding: 0px 0px;
+}
+
+.search img {
+  border-radius: 100%; 
+  width: 50px;
+  height: 45px;
+}
+li {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+li a {
+  position: absolute;
+  top: 15px;
+  left: 96%;
+  text-decoration: none;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+li a i {
+  margin-right: 10px;
+}

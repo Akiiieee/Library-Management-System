@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    margin: 0;
+}
+#bg{
+    width: 100%;
+    height: 345%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 85%;
+    padding: 20px 10%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.219);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    word-spacing: 10px;
+    font-family: 'Roboto';
+}
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    word-spacing: 100%;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+.navbar a:hover{
+    color: red;
+}
+.home_content{
+    position: inherit;
+    width: 90%;
+    display: grid;
+    align-content: center;
+    padding: 80px 5% 0;
+    font-family: 'Roboto';
+}
+.home_content h3, h1{
+    color: white;
+    font-size: 30px;
+}
+.home_content p {
+    color: white;
+    font-size: 20.5px;
+}
+
+button{
+    position: absolute;
+    left: 5%;
+    background-color: rgb(163, 115, 26);
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.home_content2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 300px;
+    height: 300px;
+    width: 1300px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+}
+.about_content{
+    position: inherit;
+    width: 70%;
+    display: grid;
+    align-content: center;
+    color: white;
+    padding: 100px 5% 0;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgba(167, 28, 28, 0.452);
+    margin: auto;
+    line-height: 1.5;
+    font-family: 'Roboto',serif;
+    font-size: 20px;
+}
+.about_content h1{
+    margin: auto;
+    font-family: 'Roboto',serif;
+    font-size: 35px;
+}
+.about_content p{
+    margin-bottom: 100px;
+}
+#logo{
+    filter: brightness(110%);
+    height: 250px;
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    border-radius: 100%;
+}
+
+.contact_content {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    top: 90px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    color: white;
+    padding: 100px 5% 0;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: auto;
+    line-height: 2;
+}
+.contact_content h1{
+    margin: auto;
+}
+.contact_content p {
+    margin-bottom: 50px;
+}
+.contact_content ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact_content ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}

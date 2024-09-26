@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+#logout{
+    background-color: transparent;
+    color: #333;
+    position: relative;
+    left: 200px;
+}
+.main--content {
+    position: relative;
+    background: white;
+    width: 100%;
+    padding: 1rem;
+}
+.header--wrapper img {
+    position: relative;
+    right: 12px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+.header--title {
+    color: rgb(0, 0, 0);
+}
+.user--info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search--box {
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+.search--box input {
+    background: transparent;
+    padding: 10px;
+}
+.search--box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.search--box i:hover {
+    transform: scale(1.2);
+}
+
+.button-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    gap: 40px;
+}
+.button-container a {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.active {
+    background-color:#d4a236;
+    color: white;
+}
+.shw_bttn {
+    font-family: 'Times New Roman', Times;
+    color: aliceblue;
+    width: 150px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 20px;
+}
+.menu li.active {
+    background: rgb(168, 161, 161);
+}
+.icon-text {
+    background-color: #eee;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.icon-text span {
+    margin-left: 5px;
+}
+
+#registered-users-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    background: transparent;
+    color: black;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Cooper Black';
+    background-color: #d4a236;
+    padding: 10px 20px;
+    border: solid black 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #a3841e;
+}
+
+.search {
+    position: absolute;
+    top: 80.5px;
+    left: 1300px;
+    border-radius: 100%;
+    padding: 0px 0px;
+}
+
+.search img {
+    border: solid black 2px;
+    position: absolute;
+    top: 145px;
+    right: 140px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    filter: brightness(90%);
+}
+
+.inputsearch {
+    color: black;
+    position: absolute;
+    top: 235px;
+    left: 29.5%;
+    border: solid black 2px;
+    border-radius: 30px;
+    height: 30px;
+    width: 715px;
+}
+.search--box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.search--box input {
+    background: transparent;
+    padding: 5px;
+}
+
+.search--box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.search--box i:hover {
+    transform: scale(1.2);
+}

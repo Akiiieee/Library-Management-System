@@ -1,0 +1,92 @@
+
+h1{
+    text-align: center;
+    color: black
+}
+table {
+border-collapse: collapse;
+width: 100%;
+margin-bottom: 20px;
+box-shadow: 0 0 5px black;
+}
+
+th, td {
+background:transparent ;
+color: black;
+text-align: left;
+padding: 8px;
+border: 2px solid black;
+}
+
+
+th {
+border: solid black 2px;
+padding: 12px 16px;
+font-weight: bold;
+}
+
+table img {
+max-width: 100px;
+margin: 5px;
+}
+
+
+button {
+font-family:'cooper black';
+background-color:  #d4a236;
+padding: 10px 20px;
+border: solid black 2px;
+border-radius: 20px;
+cursor: pointer;
+margin-bottom: 10px;
+margin-right: 10px; 
+transition: background-color 0.2s ease-in-out; 
+}
+
+button:hover {
+background-color: #a3841e;
+}
+
+.search{
+    position: absolute;
+    top: 80.5px;
+    left: 1300PX;
+    border-radius:100%;
+    padding: 0px 0px;
+}
+.search img {
+    border-radius: 100%; 
+    width: 31.5px;
+    height: 30px;
+    filter: brightness(90%);
+}
+.inputsearch{
+    color: black;
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    border: solid  black 2px;
+    border-radius: 30px;
+    height: 25px;
+    width: 980px;
+}
+.search--box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+
+}
+.search--box input{
+    background: transparent;
+    padding: 5px;
+
+}
+.search--box i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.search--box i:hover{
+    transform: scale(1.2);
+}

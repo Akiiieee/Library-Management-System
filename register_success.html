@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Success</title>
+  <style>
+    header {
+      text-align: center;
+      padding: 20px;
+      font-size: 2em;
+      border-radius: 5px;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 40%;
+      left: 50%;
+    }
+    button {
+      padding: 15px 30px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 65%;
+      left: 50%;
+    }
+    img {
+      width: 100px;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>Registered Successfully!</header>
+  <img src="success.jpg" alt="Registration Success">
+  <button id="loginButton">Login</button>
+
+  <script>
+    const loginButton = document.getElementById('loginButton');
+    loginButton.addEventListener('click', function() {
+      window.location.href = "register_interface.php";
+    });
+  </script>
+</body>
+</html>
